@@ -1,0 +1,1 @@
+# Str-nky-z-nudy
