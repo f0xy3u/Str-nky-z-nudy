@@ -1,4 +1,4 @@
-# Str-nky-z-nudy
+# Stránka z nudy
 Fox in space (profile picture): AI from padlet.com
 
 Speedcube: Jadson Thomas:https://www.pexels.com/photo/3-by-3-rubik-s-cube-selective-focus-photography-1500610/
