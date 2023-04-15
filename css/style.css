@@ -4,7 +4,8 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    max-height: max-content;
+    height: 100dvh;
+    background-color: rgb(61, 64, 78);
 }
 
 ul {
@@ -70,6 +71,8 @@ a {
     padding: 3%;
     justify-content: center;
     align-items: center;
+    border-top-left-radius: 20px; 
+    border-left: 2px solid rgb(90, 90, 90);
 }
 
 .nadpis {
@@ -95,6 +98,9 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-left: 2px solid rgb(90, 90, 90);
 }
 
 .hobbys .nadpis {
@@ -130,7 +136,7 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2.45%;
+    padding: 2%;
     background-color: rgb(61, 64, 78);
     color: white;
 }
