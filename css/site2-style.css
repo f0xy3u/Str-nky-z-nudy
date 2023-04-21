@@ -1,0 +1,146 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100dvh;
+    background-color: rgb(61, 64, 78);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.content {
+    display: flex;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding: 3%;
+    background-color: rgb(61, 64, 78);
+    color: whitesmoke;
+    border-bottom: 2px solid rgb(90, 90, 90);
+}
+
+.profil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20%;
+}
+
+.infos {
+    display: flex;
+    align-items: center;
+}
+
+.left-side li {
+    margin-top: 10%;
+}
+
+.profile-pic {
+    max-width: 100px;
+    max-height: auto;
+    border-radius: 50%;
+}
+
+.actual-content {
+    
+    border-top: 2px solid rgb(61, 64, 78);
+    border-right: 2px solid rgb(61, 64, 78);
+    border-bottom: 2px solid rgb(90, 90, 90);
+}
+
+.first-info {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+    background-color: rgb(100, 100, 100);
+    padding: 3%;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 20px; 
+    border-left: 2px solid rgb(90, 90, 90);
+}
+
+.nadpis {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 1%;
+}
+
+.text {
+    max-width: 60%;
+}
+
+.speedcube {
+    max-width: 250px;
+    margin-left: 5px;
+}
+
+.hobbys {
+    display: flex;
+    padding: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-left: 2px solid rgb(90, 90, 90);
+}
+
+.hobbys .nadpis {
+    color: rgb(31, 31, 31);
+}
+
+.actual-hobbys {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.hobby {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    max-width: 20%;
+}
+
+.hobby .img {
+    max-width: 200px;
+    border-radius: 25%;
+    border: 5px solid rgb(61, 64, 78);
+}
+
+.spodek {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    background-color: rgb(61, 64, 78);
+    color: white;
+}
+
+.spodek a {
+    font-size: 10px;
+}
